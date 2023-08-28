@@ -1,24 +1,20 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Header from './components/Header';
-import MainSection from './components/MainSection';
-import Employees from './components/Employees';
-import Footer from './components/Footer';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Header from './Header';
+import Footer from './Footer';
+import HomeRoute from './routes/HomeRoute';
+import EmployeesRoute from './routes/EmployeesRoute';
 
-function App() {
+const App = () => {
   return (
     <Router>
-      <div className="container">
-        <Header />
-        <Switch>
-          <Route path="/" exact component={MainSection} />
-          <Route path="/employees" component={Employees} />
-        </Switch>
-        <Footer />
-      </div>
+      <Header />
+      <Switch>
+        <Route path="/" exact component={HomeRoute} />
+        <Route path="/employees" component={EmployeesRoute} />
+      </Switch>
+      <Footer />
     </Router>
   );
-}
+};
 
 export default App;
-
-
