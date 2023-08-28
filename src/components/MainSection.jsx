@@ -1,8 +1,8 @@
 const MainSection = () => {
     return (
-        <section className="mainsection">
-            <div className="mainpicture">
-                <img srcSet="principalimage.png" alt="principalimage"></img>
+        <section className="mainSection">
+            <div className="mainPicture">
+                <img srcSet="src\assets\principalimage.png" alt="principalImage"></img>
             </div>
             <div className="maindescription">
                 <h2>Consultores<br />Tecnológicos</h2>
