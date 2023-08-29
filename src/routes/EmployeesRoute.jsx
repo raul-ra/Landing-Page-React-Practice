@@ -1,5 +1,5 @@
 import { Route } from 'react-router-dom';
-import Employees from '../components/Employees';
+import Employees from '../components/employees';
 
 const EmployeesRoute = () => {
     return (

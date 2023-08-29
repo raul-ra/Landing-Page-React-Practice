@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import './App.scss';
 import Header from './Header';
 import Footer from './Footer';
-import HomeRoute from './routes/HomeRoute';
-import EmployeesRoute from './routes/EmployeesRoute';
+import HomeRoute from './routes/homeroute';
+import EmployeesRoute from './routes/employeesroute';
 
 const App = () => {
   return (
