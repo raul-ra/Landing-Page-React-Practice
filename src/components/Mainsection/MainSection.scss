@@ -1,0 +1,47 @@
+/* Estilos de la sección principal */
+.mainsection {
+    width: 100vw;
+    height: 430px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .mainpicture,
+    .mainpicture img {
+        width: 372px;
+        height: 372px;
+        border-radius: 186px 0px 186px 186px;
+    }
+
+    .maindescription {
+        width: 600px;
+        text-align: start;
+        padding-left: 0px;
+    }
+
+    h2 {
+        font-size: 56px;
+        margin: 0;
+        color: #FF7F99;
+    }
+
+    .first {
+        font-size: 30px;
+        margin: 10px 0;
+        color: #070000;
+    }
+
+    .wecallyou {
+        background-color: #FFCA41;
+        width: 280px;
+        height: 64px;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 25px;
+        font-size: 40px;
+        cursor: pointer;
+    }
+}

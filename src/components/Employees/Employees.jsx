@@ -1,3 +1,6 @@
+import Employees from './Employees.scss';
+
+
 const Employees = () => {
     return (
     <>

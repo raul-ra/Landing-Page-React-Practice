@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* Estilos de la sección de información de empleados */
+.employes {
+  width: 100vw;
+  height: 430px;
+  left: 0px;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.employes .employephoto {
+  flex: 1;
+  width: 372px;
+  height: 372px;
+  border-radius: 186px 0px 186px 186px;
+}
+.employes .employedescription {
+  flex: 1;
+  max-width: 600px;
+  text-align: start;
+  padding-left: 40px;
+}
+.employes .employescontact {
+  display: flex;
+  flex-direction: row;
+  justify-items: left;
+  align-items: center;
+  height: 64px;
+}
+.employes .instaicon {
+  width: 64px;
+  height: 64px;
+  top: 914px;
+  border-radius: 10px;
+  padding-right: 20px;
+}/*# sourceMappingURL=Employees.css.map */
