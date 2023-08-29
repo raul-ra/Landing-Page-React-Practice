@@ -1,3 +1,5 @@
+import './MainSection.scss'
+
 const MainSection = () => {
     return (
         <section className="mainSection">

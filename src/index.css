@@ -1,0 +1,10 @@
+/* Estilos generales */
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-rows: 5% 1fr 1fr 1fr 1fr 1fr;
+}/*# sourceMappingURL=index.css.map */

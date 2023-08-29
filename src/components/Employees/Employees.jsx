@@ -1,4 +1,4 @@
-import Employees from './Employees.scss';
+import './Employees.scss';
 
 
 const Employees = () => {
