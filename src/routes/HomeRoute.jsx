@@ -1,5 +1,5 @@
 import { Route } from 'react-router-dom';
-import MainSection from '../components/mainsection';
+import MainSection from '../components/MainSection';
 
 const HomeRoute = () => {
     return (
